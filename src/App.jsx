@@ -1,6 +1,8 @@
 
 import NavBar from './conponant/NavBar'
 import Bannar from './conponant/Bannar'
+import Slide from './conponant/Slide'
+import Main from './conponant/Main'
 
 function App() {
   return (
@@ -8,7 +10,8 @@ function App() {
 
     <NavBar />
     <Bannar />
-   
+    <Slide />
+    <Main />
    
     </div>
   )

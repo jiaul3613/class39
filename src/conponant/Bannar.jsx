@@ -1,5 +1,7 @@
 import Container from './Container'
 import bannerImg from '../assets/banner.jpg' 
+import vedio from '../assets/vedio.png'
+import Btn from './Btn'
 
 const Banner = () => {
   return (
@@ -9,11 +11,20 @@ const Banner = () => {
       style={{ backgroundImage: `url(${bannerImg})` }}
     >
       <Container>
-        <div className="text-white max-w-2xl mx-auto">
-          <h1 className="text-5xl font-bold mb-4 text-center">Connecting Minds to Shape Tomorrow's Big Ideas</h1>
-          <p className="text-lg text-gray-200 text-center">
+        <div className="text-white max-w-160 mx-auto ">
+          <h1 className="text-5xl font-bold mb-5 text-center">Connecting Minds to Shape Tomorrow's Big Ideas</h1>
+          <p className="text-lg text-gray-200 text-center mb-5">
             Experience a powerful gathering of visionaries, creators, and industry experts united by one goal— exchanging ideas that spark growth, innovation, and meaningful change.
           </p>
+        </div>
+        <div className='flex gap-x-5  text-white w-full justify-center'> 
+              <div>
+                  <Btn>Explore Schedule</Btn>
+              </div>
+              <div className='flex gap-2 items-center'>
+                <img src={vedio} alt="" />
+                <p>Watch Video</p>
+              </div>
         </div>
       </Container>
     </div>
