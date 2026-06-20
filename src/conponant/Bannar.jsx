@@ -2,6 +2,7 @@ import Container from './Container'
 import bannerImg from '../assets/banner.jpg' 
 import vedio from '../assets/vedio.png'
 import Btn from './Btn'
+import Counter1 from './Counter1'
 
 const Banner = () => {
   return (
@@ -26,6 +27,8 @@ const Banner = () => {
                 <p>Watch Video</p>
               </div>
         </div>
+        <p2 className='text-white block text-center mt-20 font-bold text-[20px] '>Upcoming Speaker Reveal - Don't Miss Out</p2>
+        <Counter1 />
       </Container>
     </div>
   )

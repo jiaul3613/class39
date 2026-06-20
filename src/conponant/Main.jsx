@@ -4,6 +4,7 @@ import img1 from '../assets/img1.png'
 import img2 from '../assets/img2.png'
 import border from '../assets/Border.png'
 import Container from './Container'
+//import Counter from './Counter'
 
 const Main = () => {
   return (
@@ -31,6 +32,7 @@ const Main = () => {
             </div>
 
           </div>
+          
       </div>
     </Container> 
      
