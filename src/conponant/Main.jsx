@@ -12,8 +12,9 @@ const Main = () => {
    
     <Container>
       <div className=' flex justify-between place-items-center mt-15'> 
-          <div><img className='w-169.5 h-169' src={group} alt="" /></div>
-          <div className='w-180.25'>
+          <div><img className='h-169 w-40%' src={group} alt="" /></div>
+
+          <div className='w-60%'>
             <h4 className='w-20 h-4.5'>About Us</h4>
             <h2 className='w-174 h-27.5 font-semibold pt-12 text-2xl'>Behind this event</h2>
             <p className='w-165 h-18 text-[#737681]'>Discover the vision that drives this event—a commitment to bringing together innovators, leaders, and changemakers to share knowledge, spark inspiration, and create meaningful connections.</p>
@@ -30,7 +31,6 @@ const Main = () => {
             <div className='flex justify-between'>
                 <img className='w-180.25 h-23.5' src={border} alt="" />
             </div>
-
           </div>
           
       </div>
