@@ -4,6 +4,8 @@ import Bannar from './conponant/Bannar'
 import Slide from './conponant/Slide'
 import Main from './conponant/Main'
 import Core from './conponant/Core'
+import EventM from './conponant/EventM'
+import Speaker from './conponant/Speaker'
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
     <Slide />
     <Main />
     <Core />
+    <Speaker />
+    <EventM />
+
    
     </div>
   )
