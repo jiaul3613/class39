@@ -45,7 +45,7 @@ const Event1 = () => {
             </div>
         </div>
 
-        <div className="w-311.5 h-35.25 flex justify-between items-center border-b-2 border-gray-50 px-4 py-px mx-auto">
+        <div className="w-311.5 h-35.25 flex justify-between items-center border-b-2 border-gray-50 px-4 py-px mx-auto mb-15">
             <div className="flex gap-5 items-center  ">
                 <div>
                     <img src={ev1} alt="" />

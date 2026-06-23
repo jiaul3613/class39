@@ -6,6 +6,8 @@ import Main from './conponant/Main'
 import Core from './conponant/Core'
 import EventM from './conponant/EventM'
 import Speaker from './conponant/Speaker'
+import Footer from './conponant/Footer';
+import Pricing from './conponant/Pricing'
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
     <Core />
     <Speaker />
     <EventM />
+    <Pricing />
+    <Footer />
 
    
     </div>
